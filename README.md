@@ -9,3 +9,7 @@ password = 123
 http://localhost:8080/realms/SpringBootDemoKeyCloak/protocol/openid-connect/token (Login admin)
 username = app_admin
 password = 123
+
+  /api/admin/submit/{id} (submit from admin)
+  /api/admin/vacationHistory (get vacation History from admin)
+  /api/user/book (book vacation from user)
